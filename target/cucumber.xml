@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Cucumber" time="12.962" tests="1" skipped="0" failures="0" errors="0">
+<testcase classname="Add vegetables" name="Add Potato three kgs" time="12.745">
+<system-out><![CDATA[
+Given user types "Potato" into text box "Search for Vegetables and Fruits"..passed
+When user click on "+"......................................................passed
+And user click on "ADD TO CART".............................................passed
+And user clears text in search..............................................passed
+And user types "Strawberry" into text box "Search for Vegetables and Fruits".passed
+And user clears textbox "Search for Vegetables and Fruits"..................passed
+Then user click on "bag" icon...............................................passed
+And user click on "PROCEED TO CHECKOUT".....................................passed
+And user types "Apply" into text box "Enter promo code".....................passed
+And user clears textbox "Enter promo code"..................................passed
+And user click on "Apply"...................................................passed
+And user click on "Place Order".............................................passed
+And user click on "Select"..................................................passed
+And user click on "India"...................................................passed
+And user checks "checkbox"..................................................passed
+And user click on "Proceed".................................................passed
+]]></system-out>
+</testcase>
+</testsuite>
